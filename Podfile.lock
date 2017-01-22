@@ -1,0 +1,72 @@
+PODS:
+  - LGPlusButtonsView (1.1.2)
+  - Mapbox-iOS-SDK (3.3.7)
+  - MGSwipeTableCell (1.5.6)
+  - OMGHTTPURLRQ (3.2.2):
+    - OMGHTTPURLRQ/RQ (= 3.2.2)
+  - OMGHTTPURLRQ/FormURLEncode (3.2.2)
+  - OMGHTTPURLRQ/RQ (3.2.2):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.2.2)
+  - PromiseKit (3.5.3):
+    - PromiseKit/Foundation (= 3.5.3)
+    - PromiseKit/QuartzCore (= 3.5.3)
+    - PromiseKit/UIKit (= 3.5.3)
+  - PromiseKit/CorePromise (3.5.3)
+  - PromiseKit/Foundation (3.5.3):
+    - OMGHTTPURLRQ (~> 3.2.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.5.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.5.3):
+    - PromiseKit/CorePromise
+  - PureLayout (3.0.2)
+  - Realm (2.1.2):
+    - Realm/Headers (= 2.1.2)
+  - Realm/Headers (2.1.2)
+  - RealmSwift (2.1.2):
+    - Realm (= 2.1.2)
+  - SwiftLocation (1.0.5)
+  - Swinject (1.1.5)
+
+DEPENDENCIES:
+  - LGPlusButtonsView (from `https://github.com/Looz-Ashae/LGPlusButtonsView`)
+  - Mapbox-iOS-SDK
+  - MGSwipeTableCell (~> 1.5)
+  - PromiseKit (~> 3.5)
+  - PureLayout
+  - RealmSwift
+  - SwiftLocation (from `https://github.com/malcommac/SwiftLocation/`, branch `swift2.3`)
+  - Swinject (~> 1.1)
+
+EXTERNAL SOURCES:
+  LGPlusButtonsView:
+    :git: https://github.com/Looz-Ashae/LGPlusButtonsView
+  SwiftLocation:
+    :branch: swift2.3
+    :git: https://github.com/malcommac/SwiftLocation/
+
+CHECKOUT OPTIONS:
+  LGPlusButtonsView:
+    :commit: 2cc2faec667e5ea1a3940f57c345ae95a5bcf939
+    :git: https://github.com/Looz-Ashae/LGPlusButtonsView
+  SwiftLocation:
+    :commit: 8a880f3bb8f8b64e1910f148c362ff588e8e0ce0
+    :git: https://github.com/malcommac/SwiftLocation/
+
+SPEC CHECKSUMS:
+  LGPlusButtonsView: c8e58313bf3730f9049c9be186afb2e173ccfec7
+  Mapbox-iOS-SDK: 142301fa63a6719cbd2eacc0f9e8bf36c65930d9
+  MGSwipeTableCell: 616700eb0ffd1c611ba909066cb7fd739790a0a7
+  OMGHTTPURLRQ: edb14c7d28add69226b79d826f930805927a0ffa
+  PromiseKit: d3393df0dfd7ed208cec0267dce13c66d9c09d0a
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  Realm: efe855f4d977c8ce5a82d3116d9f1ff155a6550c
+  RealmSwift: 17d6ee30b6f9df86364408c2197492e33bfea567
+  SwiftLocation: 310142ddfcfc1df770b05ee762592f6ee9896cee
+  Swinject: 49b2b23850829e0a6074681264dcb1aa64c0dbca
+
+PODFILE CHECKSUM: e8b4c05d31427f3555e6ee4ca2a6af0d7b5057d7
+
+COCOAPODS: 1.1.1
