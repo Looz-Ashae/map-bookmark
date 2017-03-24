@@ -479,7 +479,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = rizer;
+				ORGANIZATIONNAME = leadgroup;
 				TargetAttributes = {
 					84306A391E0BDF040080B8EA = {
 						CreatedOnToolsVersion = 8.2.1;

@@ -36,7 +36,7 @@ class RealmManager: RealmManagerType {
         return Promise {fulfill, reject in
             do {
                 try realm.write {
-                    realm.add(rCoordinate, update: true)
+                     realm.add(rCoordinate, update: true)
                     fulfill(coord)
                 }
             } catch {
